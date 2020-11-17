@@ -194,8 +194,8 @@ body .form-group:not(:last-child) {
 .list__item {
   overflow: auto;
   width: 250px;
-  position: absolute;
-  margin-top: 125px;
+  position: relative;
+  margin-top: -34px;
   z-index: 1;
 }
 
