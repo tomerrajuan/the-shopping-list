@@ -72,10 +72,6 @@ export default function Searchbar(): JSX.Element {
     setShowMatchList(false);
   }
 
-  window.addEventListener("mousedown", (event) => {
-    !showMatchList ? setShowMatchList(false) :
-  });
-
   return (
     <>
       <form className="form-group " onSubmit={handleSubmit}>
