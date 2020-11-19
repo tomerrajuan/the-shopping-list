@@ -9,8 +9,8 @@
     // border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     width: 247px;
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.03);
     z-index: 100;
-    background-color: white;
     border-radius: 5px;
     &__item {
         display: flex;
