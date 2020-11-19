@@ -6,9 +6,8 @@
   margin-top: 93px;
   width: 247px;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: aliceblue;
   z-index: 100;
-  border-radius: 5px;
 }
 
 .match-list__item {
@@ -293,5 +292,7 @@ body {
 
 .app h1 {
   color: var(--group-background-focus);
+  margin: 0 0 15px 0;
+  font-size: 27px;
 }
 /*# sourceMappingURL=style.css.map */
