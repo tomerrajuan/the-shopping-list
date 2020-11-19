@@ -3,11 +3,7 @@
   padding-left: 0;
   list-style-type: none;
   overflow: auto;
-<<<<<<< HEAD
-  margin-top: 128px;
-=======
   margin-top: 93px;
->>>>>>> origin
   width: 247px;
   position: absolute;
   z-index: 100;
@@ -174,10 +170,11 @@
 .items-list {
   padding-left: 0;
   list-style-type: none;
-  margin-top: 37px;
+  margin-top: 25px;
   width: 285px;
   overflow: auto;
   height: 420px;
+  padding-top: 15px;
 }
 
 .items-list__item {
@@ -269,13 +266,19 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   background: white;
   margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .app {
   border-radius: 5px;
   border: 2px solid #8f8585;
   padding: 15px 20px 15px 15px;
-  height: 565px;
+  height: 490px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
