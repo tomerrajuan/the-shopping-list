@@ -19,12 +19,13 @@
         margin-top: 25px;
         width: 285px;
         overflow: auto;
-        height: 420px;
+        height: 500px;
         padding-top: 15px;
         &__item {
             display: flex;
             align-items: center;
             margin: 10px 5px;
+            background-color: white;
             padding: 0 8px;
             border-radius: 5px;
             height: 35px;
