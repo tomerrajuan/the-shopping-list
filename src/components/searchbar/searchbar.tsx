@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo } from "../../redux/reducers";
-
 export default function Searchbar(): JSX.Element {
   const dispatch = useDispatch();
   // for adding item to shopping list
@@ -35,14 +34,16 @@ export default function Searchbar(): JSX.Element {
   }
 
   function searchItem(inp: string) {
-    console.log("data is: ", data);
     let matches = data.filter((item: { name: string }) => {
       const regex = new RegExp(`^${inp}`, "gi");
       return item.name.match(regex);
     });
-    if (data.length === 0) {
-      matches = [];
+    console.log("matches are: ", matches);
+
+    if (matches.length < 1) {
+      console.log("we are here");
       setItem("");
+      return;
     }
     setMatchList(matches);
     setShowMatchList(true);
@@ -95,16 +96,17 @@ export default function Searchbar(): JSX.Element {
           ref={listEl}
           id="style-1"
         >
-          {matchList.map((match, i) => (
-            <li
-              className="match-list__item "
-              key={i}
-              onClick={() => handleItemClick(match.name)}
-            >
-              <img src="cart-outline.svg" alt="" height="15px" />
-              {match.name}
-            </li>
-          ))}
+          {matchList.map((match, i) => {
+            return (
+              <li
+                className="match-list__item "
+                key={i}
+                onClick={() => handleItemClick(match.name)}
+              >
+                {match.name}
+              </li>
+            );
+          })}
         </ul>
       )}
     </>

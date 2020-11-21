@@ -9,9 +9,9 @@ export default function List() {
   return (
     <div className="list__item" id="style-1">
       <ul className="items-list">
-        {items.map((todo) => (
-          <ListItem key={todo.id} {...todo} id={todo.id} />
-        ))}
+        {items.map((todo) => {
+          return <ListItem key={todo.id} {...todo} id={todo.id} />;
+        })}
       </ul>
     </div>
   );
