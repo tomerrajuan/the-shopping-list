@@ -103,7 +103,10 @@ export default function Searchbar(): JSX.Element {
                 key={i}
                 onClick={() => handleItemClick(match.name)}
               >
-                {match.name}
+                {/* <img src={process.env.PUBLIC_URL + '/download.png'}  height="30px"/>
+                 */}
+                <img className="match-list__item-icon" src={process.env.PUBLIC_URL + match.img} height="25px" alt=""/>
+                <p>{match.name}</p>
               </li>
             );
           })}

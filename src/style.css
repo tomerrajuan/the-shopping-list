@@ -20,21 +20,15 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 8px;
   height: 35px;
   text-transform: capitalize;
   font-size: 14px;
-  width: 80%;
-  margin-left: 5%;
   margin-bottom: 8px;
+  padding: 0 10px;
 }
 
 .match-list__item-icon {
-  font-size: 16px;
-}
-
-.match-list__item img {
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 .match-list__item:hover {
@@ -299,5 +293,16 @@ body {
   color: var(--group-background-focus);
   margin: 0 0 15px 0;
   font-size: 24px;
+}
+
+.linkin-icons {
+  font-size: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.linkin-icons a {
+  margin: 0 3px;
 }
 /*# sourceMappingURL=style.css.map */

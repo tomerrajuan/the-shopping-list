@@ -14,18 +14,13 @@
     &__item {
         display: flex;
         align-items: center;
-        padding: 0 8px;
         height: 35px;
         text-transform: capitalize;
         font-size: 14px;
-        width: 80%;
-        margin-left: 5%;
         margin-bottom: 8px;
+        padding: 0 10px;
         &-icon {
-            font-size: 16px;
-        }
-        img {
-            margin-right: 5px;
+            margin-right: 8px;
         }
         &:hover {
             cursor: pointer;

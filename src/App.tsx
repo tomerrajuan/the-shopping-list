@@ -7,6 +7,9 @@ function App() {
       <h1>Shopping List</h1>
       <Searchbar />
       <List />
+      <div className="linkin-icons">
+      <a target="_blank" href="https://icons8.com/icons/set/apple" rel="noreferrer">Apple icon</a> icon by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+      </div>
     </div>
   );
 }
