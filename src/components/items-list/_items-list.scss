@@ -9,8 +9,10 @@
     
     .list__item {
         overflow: auto;
-        width: 300px;
+        width: 320px;
         margin-top: -34px;
+        display: flex;
+        justify-content: center;
     }
     
     .items-list {

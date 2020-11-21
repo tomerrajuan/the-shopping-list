@@ -1,9 +1,11 @@
 import React from "react";
 import List from "./components/items-list/items-list";
+import Navbar from "./components/navbar/navbar";
 import Searchbar from "./components/searchbar/searchbar";
 function App() {
   return (
     <div className="app">
+      <Navbar/>
       <h1>Shopping List</h1>
       <Searchbar />
       <List />
