@@ -1,7 +1,6 @@
-@import "./components/searchbar/_match-list";
-@import "./components/searchbar/_searchbar";
-@import "./components/navbar/_navbar";
-@import "./components/items-list/_items-list";
+@import "./components/01-molecules/01-searchbar/_searchbar";
+@import "./components/01-molecules/00-navbar/_navbar";
+@import "./components/01-molecules/02-items-list/_items-list";
 * {
     box-sizing: border-box;
 }
@@ -33,5 +32,13 @@ body {
         a {
             margin: 0 3px;
         }
+    }
+}
+
+// bootstrap custom
+.dropdown-basic {
+    background-color: #275efe;
+    &::after {
+        content: none;
     }
 }
