@@ -1,226 +1,226 @@
 [{
         "name": "artichoke",
         "fibers": 5,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "asparagus",
         "fibers": 2.1,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
 
     {
         "name": "beetroot",
         "fibers": 2.8,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "broccoli",
         "fibers": 2.6,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "brussels sprout",
         "fibers": 5,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "cabbages",
         "fibers": 1.8,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "carrots",
         "fibers": 2.8,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Cauliflower",
         "fibers": 2.2,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "celeriac",
         "fibers": 1.8,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Celery",
         "fibers": 1.4,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Chilli peppers",
         "fibers": 1.5,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Chokos",
         "fibers": 1.2,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Courgettes",
         "fibers": 1.1,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "cucumber",
         "fibers": 0.8,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Eggplant",
         "fibers": 2.5,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Fennel",
         "fibers": 3.1,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "garlic",
         "fibers": 16.9,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "ginger",
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Kale",
         "fibers": 5.8,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "kohlrabi ",
         "fibers": 3.6,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Leek ",
         "fibers": 2.9,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "lettuce",
         "fibers": 1.6,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Microgreens",
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Mushrooms ",
         "fibers": 2.5,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "okra",
         "fibers": 4.3,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Onion",
         "fibers": 1.8,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Parsnip",
         "fibers": 4.0,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "peas",
         "fibers": 5.6,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Potatoes",
         "fibers": 1.7,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Puha ",
         "fibers": 3.2,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Pumpkin",
         "fibers": 2.2,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "radish",
         "fibers": 1.1,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Rhubarb ",
         "fibers": 1.8,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Salad greens",
         "fibers": 2.3,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Shallots",
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Silverbeet",
         "fibers": 2.9,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Spinach",
         "fibers": 2.2,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Spring onions",
         "fibers": 2.5,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Swedes",
         "fibers": 2.7,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "sweet corn ",
         "fibers": 4,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Taro ",
         "fibers": 3.1,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Tomatoes ",
         "fibers": 1.2,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Turnips",
         "fibers": 2.7,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
     {
         "name": "Watercress",
         "fibers": 3.3,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     },
 
     {
         "name": "Yams",
         "fibers": 1.1,
-        "img": "./public/images/default.jpeg"
+        "img": "/veggies.png"
     }
 
 ]
