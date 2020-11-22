@@ -1,16 +1,28 @@
 import React from "react";
-import List from "./components/items-list/items-list";
-import Navbar from "./components/navbar/navbar";
-import Searchbar from "./components/searchbar/searchbar";
+import List from "./components/01-molecules/02-items-list/items-list";
+import Navbar from "./components/01-molecules/00-navbar/navbar";
+import Searchbar from "./components/01-molecules/01-searchbar/searchbar";
 function App() {
   return (
     <div className="app">
-      <Navbar/>
-      <h1>Shopping List</h1>
-      <Searchbar />
+      <Navbar />
+      <div className="search-section">
+        <h1>Shopping List</h1>
+        <Searchbar />
+      </div>
       <List />
       <div className="linkin-icons">
-      <a target="_blank" href="https://icons8.com/icons/set/apple" rel="noreferrer">Apple icon</a> icon by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+        <a
+          target="_blank"
+          href="https://icons8.com/icons/set/apple"
+          rel="noreferrer"
+        >
+          Apple icon
+        </a>{" "}
+        icon by{" "}
+        <a target="_blank" rel="noreferrer" href="https://icons8.com">
+          Icons8
+        </a>
       </div>
     </div>
   );

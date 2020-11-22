@@ -1,6 +1,6 @@
 import React from "react";
-import ListItem from "../item/item";
-import { RootState } from "../../redux/rootReducer";
+import ListItem from "../../00-atoms/03-item/item";
+import { RootState } from "../../../redux/rootReducer";
 import { useSelector } from "react-redux";
 
 export default function List() {

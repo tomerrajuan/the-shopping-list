@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
-import { addTodo } from "../../redux/reducers";
+import { addTodo } from "../../../redux/reducers";
 export default function Searchbar(): JSX.Element {
   const dispatch = useDispatch();
   // for adding item to shopping list
@@ -59,6 +59,9 @@ export default function Searchbar(): JSX.Element {
 
   // handles form submit
   function handleSubmit(e: any) {
+    console.log("we are at handleSubmit");
+
+    setShowMatchList(false);
     e.preventDefault();
     item ? addTodo(item) : alert("plaese enter item to list");
     if (!item.trim()) {
@@ -91,11 +94,7 @@ export default function Searchbar(): JSX.Element {
         <button type="submit">Add</button>
       </form>
       {showMatchList && (
-        <ul
-          className="list-group list-group-flush match-list"
-          ref={listEl}
-          id="style-1"
-        >
+        <ul className="match-list" ref={listEl}>
           {matchList.map((match, i) => {
             return (
               <li
@@ -105,7 +104,12 @@ export default function Searchbar(): JSX.Element {
               >
                 {/* <img src={process.env.PUBLIC_URL + '/download.png'}  height="30px"/>
                  */}
-                <img className="match-list__item-icon" src={process.env.PUBLIC_URL + match.img} height="25px" alt=""/>
+                <img
+                  className="match-list__item-icon"
+                  src={process.env.PUBLIC_URL + match.img}
+                  height="25px"
+                  alt=""
+                />
                 <p>{match.name}</p>
               </li>
             );

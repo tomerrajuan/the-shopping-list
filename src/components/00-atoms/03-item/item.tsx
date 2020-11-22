@@ -1,5 +1,5 @@
 import React from "react";
-import DeleteButton from "../delete-button/delete-button";
+import DeleteButton from "../02-delete-button/delete-button";
 
 interface TodoProps {
   completed: boolean;
