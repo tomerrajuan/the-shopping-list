@@ -54,6 +54,7 @@
   display: -ms-flexbox;
   display: flex;
   padding: 0 15px;
+  margin-bottom: 0;
 }
 
 .form-group > button,
@@ -152,6 +153,10 @@
 .match-list__item:hover {
   cursor: pointer;
   background-color: rgba(0, 0, 0, 0.05);
+}
+
+.match-list__item p {
+  margin: 8px 0 0 0;
 }
 
 .navbar {
@@ -290,7 +295,12 @@ body {
           justify-content: center;
 }
 
+p {
+  margin: 0;
+}
+
 .app {
+  margin: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -301,7 +311,6 @@ body {
   text-align: center;
   border-radius: 5px;
   border: 2px solid #8f8585;
-  margin: 0;
   width: 320px;
   background-color: #fafafa;
   height: 590px;

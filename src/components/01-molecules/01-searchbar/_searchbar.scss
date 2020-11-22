@@ -39,6 +39,7 @@
     position: relative;
     display: flex;
     padding: 0 15px;
+    margin-bottom: 0;
     &>button,
     .form-field {
         white-space: nowrap;
@@ -115,6 +116,9 @@
         &:hover {
             cursor: pointer;
             background-color: rgba(0, 0, 0, 0.05);
+        }
+        p {
+            margin: 8px 0 0 0;
         }
     }
 }

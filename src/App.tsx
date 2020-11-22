@@ -1,11 +1,11 @@
 import React from "react";
 import List from "./components/01-molecules/02-items-list/items-list";
-import Navbar from "./components/01-molecules/00-navbar/navbar";
+// import Navbar from "./components/01-molecules/00-navbar/navbar";
 import Searchbar from "./components/01-molecules/01-searchbar/searchbar";
 function App() {
   return (
     <div className="app">
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="search-section">
         <h1>Shopping List</h1>
         <Searchbar />
