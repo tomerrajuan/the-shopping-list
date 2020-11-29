@@ -4,27 +4,29 @@ import List from "./components/01-molecules/02-items-list/items-list";
 import Searchbar from "./components/01-molecules/01-searchbar/searchbar";
 function App() {
   return (
-    <div className="app">
-      {/* <Navbar /> */}
-      <div className="search-section">
-        <h1>Shopping List</h1>
-        <Searchbar />
+    <>
+      <div className="app">
+        {/* <Navbar /> */}
+        <div className="search-section">
+          <h1>Shopping List</h1>
+          <Searchbar />
+        </div>
+        <List />
+        <div className="a2a_kit a2a_kit_size_32 a2a_default_style share-buttons">
+          {/* <a className="a2a_dd" href="https://www.addtoany.com/share"></a> */}
+          <a className="a2a_button_whatsapp"></a>
+          <a className="a2a_button_google_gmail"></a>
+          <a className="a2a_button_sms"></a>
+          <a className="a2a_button_facebook_messenger"></a>
+        </div>
       </div>
-      <List />
       <div className="linkin-icons">
-        <a
-          target="_blank"
-          href="https://icons8.com/icons/set/apple"
-          rel="noreferrer"
-        >
-          Apple icon
-        </a>{" "}
-        icon by{" "}
+        list icons by{" "}
         <a target="_blank" rel="noreferrer" href="https://icons8.com">
           Icons8
         </a>
       </div>
-    </div>
+    </>
   );
 }
 export default App;

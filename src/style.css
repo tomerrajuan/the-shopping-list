@@ -313,7 +313,7 @@ p {
   border: 2px solid #8f8585;
   width: 320px;
   background-color: #fafafa;
-  height: 590px;
+  height: 480px;
 }
 
 .app h1 {
@@ -322,11 +322,18 @@ p {
   padding-top: 15px;
 }
 
-.app .linkin-icons {
+.share-buttons {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 5px 0;
+}
+
+.linkin-icons {
   font-size: 10px;
 }
 
-.app .linkin-icons a {
+.linkin-icons a {
   margin: 0 3px;
 }
 
