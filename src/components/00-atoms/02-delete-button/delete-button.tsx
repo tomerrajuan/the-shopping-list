@@ -10,7 +10,6 @@ export default function DeleteButton({ id }: TodoProps) {
   const dispatch = useDispatch();
 
   function deleteItem(id: any) {
-    console.log("id is: ", id);
     dispatch(deleteTodo(id));
   }
 

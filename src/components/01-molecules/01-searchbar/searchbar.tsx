@@ -25,7 +25,6 @@ export default function Searchbar(): JSX.Element {
       },
     })
       .then(function (response) {
-        console.log(response);
         return response.json();
       })
       .then((data) => {
@@ -38,10 +37,8 @@ export default function Searchbar(): JSX.Element {
       const regex = new RegExp(`^${inp}`, "gi");
       return item.name.match(regex);
     });
-    console.log("matches are: ", matches);
 
     if (matches.length < 1) {
-      console.log("we are here");
       setItem("");
       return;
     }
@@ -59,8 +56,6 @@ export default function Searchbar(): JSX.Element {
 
   // handles form submit
   function handleSubmit(e: any) {
-    console.log("we are at handleSubmit");
-
     setShowMatchList(false);
     e.preventDefault();
     item ? addTodo(item) : alert("plaese enter item to list");
