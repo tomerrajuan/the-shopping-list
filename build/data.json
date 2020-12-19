@@ -1,226 +1,714 @@
-[{
-        "name": "artichoke",
-        "fibers": 5,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "asparagus",
-        "fibers": 2.1,
-        "img": "/veggies.png"
-    },
+[
+  {
+    "_comment": "vegetables",
 
-    {
-        "name": "beetroot",
-        "fibers": 2.8,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "broccoli",
-        "fibers": 2.6,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "brussels sprout",
-        "fibers": 5,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "cabbages",
-        "fibers": 1.8,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "carrots",
-        "fibers": 2.8,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Cauliflower",
-        "fibers": 2.2,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "celeriac",
-        "fibers": 1.8,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Celery",
-        "fibers": 1.4,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Chilli peppers",
-        "fibers": 1.5,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Chokos",
-        "fibers": 1.2,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Courgettes",
-        "fibers": 1.1,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "cucumber",
-        "fibers": 0.8,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Eggplant",
-        "fibers": 2.5,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Fennel",
-        "fibers": 3.1,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "garlic",
-        "fibers": 16.9,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "ginger",
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Kale",
-        "fibers": 5.8,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "kohlrabi ",
-        "fibers": 3.6,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Leek ",
-        "fibers": 2.9,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "lettuce",
-        "fibers": 1.6,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Microgreens",
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Mushrooms ",
-        "fibers": 2.5,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "okra",
-        "fibers": 4.3,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Onion",
-        "fibers": 1.8,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Parsnip",
-        "fibers": 4.0,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "peas",
-        "fibers": 5.6,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Potatoes",
-        "fibers": 1.7,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Puha ",
-        "fibers": 3.2,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Pumpkin",
-        "fibers": 2.2,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "radish",
-        "fibers": 1.1,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Rhubarb ",
-        "fibers": 1.8,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Salad greens",
-        "fibers": 2.3,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Shallots",
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Silverbeet",
-        "fibers": 2.9,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Spinach",
-        "fibers": 2.2,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Spring onions",
-        "fibers": 2.5,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Swedes",
-        "fibers": 2.7,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "sweet corn ",
-        "fibers": 4,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Taro ",
-        "fibers": 3.1,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Tomatoes ",
-        "fibers": 1.2,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Turnips",
-        "fibers": 2.7,
-        "img": "/veggies.png"
-    },
-    {
-        "name": "Watercress",
-        "fibers": 3.3,
-        "img": "/veggies.png"
-    },
+    "name": "artichoke",
+    "fibers": 5,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "asparagus",
+    "fibers": 2.1,
+    "img": "/veggies.png"
+  },
 
-    {
-        "name": "Yams",
-        "fibers": 1.1,
-        "img": "/veggies.png"
-    }
+  {
+    "name": "beetroot",
+    "fibers": 2.8,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "broccoli",
+    "fibers": 2.6,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "brussels sprout",
+    "fibers": 5,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "cabbages",
+    "fibers": 1.8,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "carrots",
+    "fibers": 2.8,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Cauliflower",
+    "fibers": 2.2,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "celeriac",
+    "fibers": 1.8,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Celery",
+    "fibers": 1.4,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Chilli peppers",
+    "fibers": 1.5,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Chokos",
+    "fibers": 1.2,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Courgettes",
+    "fibers": 1.1,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "cucumber",
+    "fibers": 0.8,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Eggplant",
+    "fibers": 2.5,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Fennel",
+    "fibers": 3.1,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "garlic",
+    "fibers": 16.9,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "ginger",
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Kale",
+    "fibers": 5.8,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "kohlrabi ",
+    "fibers": 3.6,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Leek ",
+    "fibers": 2.9,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "lettuce",
+    "fibers": 1.6,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Microgreens",
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Mushrooms ",
+    "fibers": 2.5,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Okra",
+    "fibers": 4.3,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Olives",
+    "fibers": 3.2,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Onion",
+    "fibers": 1.8,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Parsnip",
+    "fibers": 4.0,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Peas",
+    "fibers": 5.6,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Potatoes",
+    "fibers": 1.7,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Puha ",
+    "fibers": 3.2,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Pumpkin",
+    "fibers": 2.2,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Radish",
+    "fibers": 1.1,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Rhubarb ",
+    "fibers": 1.8,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Salad greens",
+    "fibers": 2.3,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Shallots",
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Silverbeet",
+    "fibers": 2.9,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Spinach",
+    "fibers": 2.2,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Spring onions",
+    "fibers": 2.5,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Swedes",
+    "fibers": 2.7,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "sweet corn ",
+    "fibers": 4,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Taro ",
+    "fibers": 3.1,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Tomatoes ",
+    "fibers": 1.2,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Turnips",
+    "fibers": 2.7,
+    "img": "/veggies.png"
+  },
+  {
+    "name": "Watercress",
+    "fibers": 3.3,
+    "img": "/veggies.png"
+  },
 
+  {
+    "name": "Yams",
+    "fibers": 1.1,
+    "img": "/veggies.png"
+  },
+
+  {
+    "_comment": "fruits",
+
+    "name": "Acerola",
+    "fibers": "1.1",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Apple",
+    "fibers": "2,4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Apricots",
+    "fibers": "2",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Banana",
+    "fibers": "2.6",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Blackberries",
+    "fibers": "5",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Blackcurrant",
+    "fibers": "4.3",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Blueberries",
+    "fibers": "2.4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Breadfruit",
+    "fibers": "5.4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Cantaloupe",
+    "fibers": "0.9",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Carambola",
+    "fibers": "2.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Cherimoya",
+    "fibers": "2.3",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Cherries",
+    "fibers": "1.6",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Clementine",
+    "fibers": "1.7",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Coconut",
+    "fibers": "9",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Cranberries",
+    "fibers": "6",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Custard-Apple",
+    "fibers": "4.4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Date Fruit",
+    "fibers": "8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Durian",
+    "fibers": "3.7",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Elderberries",
+    "fibers": "7",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Feijoa",
+    "fibers": "6",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Figs",
+    "fibers": "2.9",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Gooseberries",
+    "fibers": "4.3",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Grapefruit",
+    "fibers": "0.1",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Grapes",
+    "fibers": "3.9",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Guava",
+    "fibers": "5",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Honeydew Melon",
+    "fibers": "0.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Jackfruit",
+    "fibers": "1.5",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Java-Plum",
+    "fibers": "0",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Jujube Fruit",
+    "fibers": "10",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Kiwi",
+    "fibers": "3",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Kumquat",
+    "fibers": "6.5",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Lemon",
+    "fibers": "2.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Lime",
+    "fibers": "2.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Longan",
+    "fibers": "1.1",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Loquat",
+    "fibers": "1.7",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Lychee",
+    "fibers": "1.3",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Mandarin",
+    "fibers": "1",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Mango",
+    "fibers": "1.6",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Mangosteen",
+    "fibers": "1.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Mulberries",
+    "fibers": "1.7",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Nectarine",
+    "fibers": "1.7",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Orange",
+    "fibers": "2.4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Papaya",
+    "fibers": "2.3",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Passion Fruit",
+    "fibers": "10",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Peaches",
+    "fibers": "1.5",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Pear",
+    "fibers": "3.1",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Persimmon",
+    "fibers": "3.6",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Pitaya",
+    "fibers": "1.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Pineapple",
+    "fibers": "1.4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Pitanga",
+    "fibers": "1.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Plantain",
+    "fibers": "2.3",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Plums",
+    "fibers": "1.4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Pomegranate",
+    "fibers": "4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Prickly Pear",
+    "fibers": "4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Prunes",
+    "fibers": "7.1",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Pummelo",
+    "fibers": "1",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Quince",
+    "fibers": "1.9",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Raspberries",
+    "fibers": "7",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Rhubarb",
+    "fibers": "1.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Rose-Apple",
+    "fibers": "1.5",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Sapodilla",
+    "fibers": "5",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Sapote, Mamey",
+    "fibers": "5",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Soursop",
+    "fibers": "3.3",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Strawberries",
+    "fibers": "2",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Sugar-Apple",
+    "fibers": "4.4",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Tamarind",
+    "fibers": "5.1",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Tangerine",
+    "fibers": "1.8",
+    "img": "/fruit.png"
+  },
+  {
+    "name": "Watermelon",
+    "fibers": "0.4",
+    "img": "/fruit.png"
+  },
+  {
+    "_comment": "Dairy Pruducts",
+
+    "name": "Ayran",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Butter",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Buttermilk",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Cottage Cheese",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Cream cheese",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Crème anglaise",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Crème fraiche",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Curd",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Goat milk",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Ice cream",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Kefir",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Labneh",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Milk",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Mozzarella",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Mozzarella di Buffalo",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Processed cheese",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Quark",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Ricotta",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Sheep milk",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Skyr",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Sour cream",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Whipped cream",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Yogurt",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Roquefort",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Camembert",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Cotija",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Chèvre",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Emmental",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Cheddar",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Gouda",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Taleggio",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Parmigiano-Reggiano",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Manchego",
+    "img": "/cheese.png"
+  },
+  {
+    "name": "Monterey Jack",
+    "img": "/cheese.png"
+  }
 ]

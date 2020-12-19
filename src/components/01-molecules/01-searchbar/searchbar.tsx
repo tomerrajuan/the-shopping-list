@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo } from "../../../redux/reducers";
+
 export default function Searchbar(): JSX.Element {
   const dispatch = useDispatch();
   // for adding item to shopping list
@@ -10,6 +11,11 @@ export default function Searchbar(): JSX.Element {
   // for list of matching search
   const [matchList, setMatchList] = React.useState<any[]>([]);
   const [showMatchList, setShowMatchList] = React.useState(false);
+  const createDOMPurify = require("dompurify");
+  const { JSDOM } = require("jsdom");
+
+  const window = new JSDOM("").window;
+  const DOMPurify = createDOMPurify(window);
 
   let listEl = useRef(null);
 
@@ -62,7 +68,9 @@ export default function Searchbar(): JSX.Element {
     if (!item.trim()) {
       return;
     }
-    dispatch(addTodo(item));
+    const cleanItem = DOMPurify.sanitize(item);
+
+    dispatch(addTodo(cleanItem));
     setItem("");
   }
 
